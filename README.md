@@ -22,7 +22,7 @@ To apply the fix just copy the contents of the relevant folder of this repositor
 The [prediction.C](https://github.com/thermus-project/THERMUS/blob/master/test/prediction.C) macro from the THERMUS-github repository calculates various particle yields and yield ratios at T = 156 MeV and &mu;<sub>B</sub> = 0.1 MeV.
 
 The resulting yields and yield ratio calculated using default and corrected version of THERMUS are listed in [prediction-nofix.txt](prediction-nofix.txt) and [prediction-fix.txt](prediction-fix.txt) files, respectively.
-A clear difference is observed for the yields where unstable particles are involved.
+A clear difference is observed for the entries where yields of unstable particles are involved.
 
 One particularly good example is the &Lambda;(1520)/&Lambda; ratio. The default THERMUS implementation yields
 ```bash
@@ -30,7 +30,7 @@ One particularly good example is the &Lambda;(1520)/&Lambda; ratio. The default 
 ```
 which appears to agree with the THERMUS value shown in [arXiv:1805.04361v1](http://arxiv.org/pdf/1805.04361v1.pdf) (Fig. 4).
 
-The corrected THERMUS yields instead
+The corrected THERMUS instead gives
 ```bash
  3124 	 3122 	 Lambda(1520)/Lambda PREDICTION 	 0.080032
 ```
