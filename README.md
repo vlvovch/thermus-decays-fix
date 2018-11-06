@@ -19,7 +19,7 @@ To apply the fix just copy the contents of the relevant folder of this repositor
 
 ### Illustration
 
-The [prediction.C](https://github.com/thermus-project/THERMUS/blob/master/test/prediction.C) macro from the THERMUS-github repository calculates various particle yields and yield ratios at T = 156 MeV and mu_B = 0.1 MeV.
+The [prediction.C](https://github.com/thermus-project/THERMUS/blob/master/test/prediction.C) macro from the THERMUS-github repository calculates various particle yields and yield ratios at T = 156 MeV and &mu;<sub>B</sub> = 0.1 MeV.
 
 The resulting yields and yield ratio calculated using default and corrected version of THERMUS are listed in [prediction-nofix.txt](prediction-nofix.txt) and [prediction-fix.txt](prediction-fix.txt) files, respectively.
 A clear difference is observed for the yields where unstable particles are involved.
